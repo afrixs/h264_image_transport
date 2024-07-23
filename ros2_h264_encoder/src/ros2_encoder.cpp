@@ -13,9 +13,11 @@ ROS2Encoder::ROS2Encoder(rclcpp::Logger logger) : pts(0), seq(0), logger(logger)
 }
 
 ROS2Encoder::~ROS2Encoder() {
-    x264_picture_clean(&input);
-    x264_encoder_close(encoder);
-    sws_freeContext(conversion_context);
+    if (encoder) {
+        x264_picture_clean(&input);
+        x264_encoder_close(encoder);
+        sws_freeContext(conversion_context);
+    }
 }
     
 bool ROS2Encoder::encode_image(const sensor_msgs::msg::Image &msg, h264_msgs::msg::Packet &packet) {

@@ -22,6 +22,7 @@ find_package(h264_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(image_transport REQUIRED)
 find_package(pluginlib REQUIRED)
+find_package(std_srvs REQUIRED)
 
 find_package(PkgConfig)
 pkg_check_modules(PC_SWSCALE REQUIRED libswscale>=5)
@@ -54,6 +55,7 @@ ament_target_dependencies(
   rclcpp
   pluginlib
   sensor_msgs
+  std_srvs
 )
 
 ament_target_dependencies(
@@ -63,6 +65,7 @@ ament_target_dependencies(
   rclcpp
   pluginlib
   sensor_msgs
+  std_srvs
 )
 
 target_link_libraries(

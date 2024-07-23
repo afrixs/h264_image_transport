@@ -13,7 +13,8 @@
   <test_depend>ament_lint_common</test_depend>
 
   <depend>sensor_msgs</depend>
-  <depend>h264_msgs</depend>  
+  <depend>h264_msgs</depend>
+  <depend>std_srvs</depend>
   <depend>rclcpp</depend>
   <depend>image_transport</depend>
   <depend>libswscale-dev</depend>

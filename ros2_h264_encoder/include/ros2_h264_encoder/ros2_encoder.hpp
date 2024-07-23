@@ -33,7 +33,7 @@ public:
 
 private:
     // Encoder variables
-    x264_t* encoder;
+    x264_t* encoder = nullptr;
     x264_param_t params;
 
     x264_picture_t input;
