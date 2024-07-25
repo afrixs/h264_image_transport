@@ -3,7 +3,7 @@
 	url = https://github.com/afrixs/h264_image_decoder
 [submodule "opencv_cam"]
 	path = opencv_cam
-	url = git@github.com:openvmp/opencv_cam.git
+	url = https://github.com/openvmp/opencv_cam.git
 [submodule "ros2_shared"]
 	path = ros2_shared
-	url = git@github.com:ptrmu/ros2_shared.git
+	url = https://github.com/ptrmu/ros2_shared.git   
