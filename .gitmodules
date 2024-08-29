@@ -9,4 +9,4 @@
 	url = https://github.com/ptrmu/ros2_shared.git   
 [submodule "camera_ros"]
 	path = camera_ros
-	url = https://github.com/christianrauch/camera_ros.git
+	url = https://github.com/afrixs/camera_ros.git
