@@ -10,3 +10,6 @@
 [submodule "camera_ros"]
 	path = camera_ros
 	url = https://github.com/afrixs/camera_ros.git
+[submodule "ffmpeg_image_transport"]
+	path = ffmpeg_image_transport
+	url = https://github.com/afrixs/ffmpeg_image_transport.git
